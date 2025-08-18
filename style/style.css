@@ -111,6 +111,7 @@ button:hover {
     width: 100%;
     max-width: 1200px;
     padding: 15px 5%;
+    margin-top: 40px;
     gap: 20px; 
 }
 
@@ -154,7 +155,7 @@ button:hover {
 
 .pausing-plant{
     margin-left: -50px;
-    width: 250px;
+    width: 500px;
     height: auto;
 }
 
