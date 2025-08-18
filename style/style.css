@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-image: linear-gradient(#CC9900, #3A550E, black);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header{
+    align-items: center;
+    padding: 15px 5%;
+    height: 80px;
+    position: fixed;
+    top: 20px;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    padding: 15px 5%;
+    height: auto;
+}
+
+.mobile-menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #997300;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    padding: 0 15px;
+    color: white;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    background-color: #a08639;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+li, a, button {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+button {
+    margin-left: 15px;
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #997300;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #a08639;
+}
+
+.logo {
+    height: auto;
+    width: 50px;
+}
+
+.starter{
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center; 
+    gap: 40px; 
+    padding: 20px;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.plant-search{
+    display: inline-block;
+    width:250px;
+    height: auto;
+}
+
+.canvas{
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    width: 500px;
+    height: 80%;
+    border: 0px;
+    border-radius: 16px;
+    background-color: rgba(255,255,255,0.1);
+    padding: 20px 20px;
+    backdrop-filter: blur(30px);
+    align-items: center;
+    z-index: 10;
+}
