@@ -23,7 +23,7 @@ loader.load('./assets/models/plant_model.glb', function(gltf){
     scene.add(plant);
     },
     function (error) {
-            console.log('an error occured while loading museum model');
+            console.log('an error occured while loading plant model');
 });
 
 //renderer
@@ -39,7 +39,7 @@ controls.enableDamping = true;
 
 //animation loop
 function animate(){
-    renderer(scene, camera);
+    renderer.render(scene, camera);
     requestAnimationFrame(animate);
 }
 
