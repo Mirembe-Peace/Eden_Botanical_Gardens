@@ -120,7 +120,7 @@ button:hover {
     height: auto;
 }
 .search-title{
-    font-family: "Libertinus Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 3rem;
     font-weight: 800px;
 }
@@ -140,15 +140,22 @@ button:hover {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.canvas {
+.big-plant {
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
     width: 40%;
-    height: 400px;
+    height: 200px;
+    overflow: visible;
     border: 0px;
     border-radius: 16px;
     background-color: rgba(255,255,255,0.1);
     padding: 20px 20px;
     backdrop-filter: blur(30px);
+}
+
+.pausing-plant{
+    margin-left: -50px;
+    width: 250px;
+    height: auto;
 }
 
 .plant-display{
