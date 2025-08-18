@@ -152,7 +152,7 @@ main{
 .big-plant {
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
     width: 40%;
-    height: 500px;
+    height: 400px;
     overflow: visible;
     border: 0px;
     border-radius: 16px;
@@ -177,7 +177,7 @@ main{
 .plant-cards{
     color: white;
     user-select: none;
-    width: 100px;
+    width: 200px;
     height: 300px;
     padding: 15px;
     display: flex;
