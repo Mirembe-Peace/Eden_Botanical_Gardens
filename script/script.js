@@ -3,13 +3,16 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 const canvas = document.querySelector('.canvas');
+const width = canvas.clientWidth;
+const height = canvas.clientHeight;
 
 //scene
 const scene = new THREE.Scene();
 
 //camera
 const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1,100);
-camera.position.set(0, 0, 0);
+camera.position.set(0, 0, 5);
+camera.lookAt(0, 0, 0);
 scene.add(camera);
 
 //lights
@@ -20,6 +23,7 @@ scene.add(lights);
 const loader = new GLTFLoader();
 loader.load('./assets/models/plant_model.glb', function(gltf){
     const plant = gltf.scene;
+    plant.position.set(0, 0, 0);
     scene.add(plant);
     },
     function (error) {
@@ -27,8 +31,8 @@ loader.load('./assets/models/plant_model.glb', function(gltf){
 });
 
 //renderer
-const renderer = new THREE.WebGLRenderer({canvas : canvas});
-renderer.setSize(window.innerWidth, window.innerHeight);
+const renderer = new THREE.WebGLRenderer({canvas , antialias: true });
+renderer.setSize(width, height, false);
 renderer.setPixelRatio(window.devicePixelRatio);
 document.body.appendChild(renderer.domElement);
 

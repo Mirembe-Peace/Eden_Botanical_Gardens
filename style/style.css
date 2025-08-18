@@ -102,7 +102,6 @@ button:hover {
 
 .starter{
     display: flex;
-    align-items: flex-end; 
     justify-content: center; 
     gap: 40px; 
     padding: 20px;
@@ -119,9 +118,24 @@ button:hover {
     height: auto;
 }
 
+.plant-search input[type=text] {
+  padding: 6px;
+  border: 2px;
+  border-style: inset;
+  border-radius: 16px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-family: "Libertinus Sans", sans-serif;
+  font-size: 17px;
+  background-color: rgba(255,255,255,0.1);
+}
+
 .canvas{
+    position: relative;
+    top: 0;
+    left: 0;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
-    display: inline-block;
+    display: block;
     width: 500px;
     height: 80%;
     border: 0px;
@@ -129,6 +143,5 @@ button:hover {
     background-color: rgba(255,255,255,0.1);
     padding: 20px 20px;
     backdrop-filter: blur(30px);
-    align-items: center;
     z-index: 10;
 }
