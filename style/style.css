@@ -87,10 +87,13 @@ button:hover {
     background-color: #a08639;
 }
 
+.logo-holder{
+    float: right;
+}
+
 .logo {
     height: auto;
     width: 50px;
-    float: right;
 }
 
 .logo-name{
