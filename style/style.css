@@ -170,6 +170,8 @@ main{
 
 .plant-display{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 20px;
     padding: 20px 5%;
 }
