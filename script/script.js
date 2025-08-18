@@ -16,14 +16,14 @@ camera.lookAt(0, 0, 0);
 scene.add(camera);
 
 //lights
-const lights = new THREE.AmbientLight(0xffffff, 0.5);
+const lights = new THREE.AmbientLight(0xffffff, 0.8);
 scene.add(lights);
 
 //load model
 const loader = new GLTFLoader();
 loader.load('./assets/models/plant_model.glb', function(gltf){
     const plant = gltf.scene;
-    plant.scale.set(0.5, 0.5, 0.5);
+    plant.scale.set(3, 3, 3);
     plant.position.set(0, 0, 0);
     scene.add(plant);
     },
