@@ -108,7 +108,8 @@ button:hover {
     align-items: center;
     width: 100%;
     max-width: 1200px;
-    gap: 40px; 
+    padding: 15px 5%;
+    gap: 20px; 
 }
 
 .plant-search {
@@ -152,6 +153,10 @@ button:hover {
     width: 100%;
     height: 100%;
     display: block;
+}
+
+.plant-display{
+    display: flex;
 }
 
 /* Responsive styles */

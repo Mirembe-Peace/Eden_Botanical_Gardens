@@ -10,7 +10,7 @@ const height = canvas.clientHeight;
 const scene = new THREE.Scene();
 
 //camera
-const camera = new THREE.PerspectiveCamera(75, width / height, 0.1,1000);
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1,1000);
 camera.position.set(0, 0, 5);
 camera.lookAt(0, 0, 0);
 scene.add(camera);
@@ -23,7 +23,7 @@ scene.add(lights);
 const loader = new GLTFLoader();
 loader.load('./assets/models/plant.glb', function(gltf){
     const plant = gltf.scene;
-    plant.scale.set(3, 3, 3);
+    plant.scale.set(2, 2, 2);
     plant.position.set(0, 0, 0);
     scene.add(plant);
     },
