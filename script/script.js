@@ -10,7 +10,7 @@ const height = canvas.clientHeight;
 const scene = new THREE.Scene();
 
 //camera
-const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1,100);
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1,1000);
 camera.position.set(0, 0, 5);
 camera.lookAt(0, 0, 0);
 scene.add(camera);
@@ -31,7 +31,7 @@ loader.load('./assets/models/plant_model.glb', function(gltf){
 });
 
 //renderer
-const renderer = new THREE.WebGLRenderer({canvas , antialias: true });
+const renderer = new THREE.WebGLRenderer({alpha : true});
 renderer.setSize(width, height, false);
 renderer.setPixelRatio(window.devicePixelRatio);
 document.body.appendChild(renderer.domElement);
