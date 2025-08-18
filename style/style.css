@@ -103,19 +103,17 @@ button:hover {
 
 .starter {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    padding: 100px 5% 20px;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 1;
+    gap: 40px; 
 }
 
 .plant-search {
     display: inline-block;
-    width:250px;
+    width:50%;
     height: auto;
 }
 .search-title{
@@ -141,8 +139,8 @@ button:hover {
 
 .canvas-container {
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
-    width: 500px;
-    height: 50%;
+    width: 40%;
+    height: 400px;
     border: 0px;
     border-radius: 16px;
     background-color: rgba(255,255,255,0.1);

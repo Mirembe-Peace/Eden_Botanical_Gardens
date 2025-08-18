@@ -35,7 +35,7 @@ loader.load('./assets/models/plant.glb', function(gltf){
 const renderer = new THREE.WebGLRenderer({alpha : true});
 renderer.setSize(width, height, false);
 renderer.setPixelRatio(window.devicePixelRatio);
-document.body.appendChild(renderer.domElement);
+canvas.appendChild(renderer.domElement);
 
 //controls
 const controls = new OrbitControls(camera, renderer.domElement);
