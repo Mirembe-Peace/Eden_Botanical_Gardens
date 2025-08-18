@@ -26,7 +26,7 @@ header {
 nav {
     background-color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     border-radius: 24px;
     padding: 15px 5%;
@@ -79,7 +79,7 @@ nav {
 button {
     padding: 8px 16px;
     border: none;
-    border-radius: 8px;
+    border-radius: 16px;
     background-color: #997300;
     color: black;
     cursor: pointer;
@@ -114,11 +114,15 @@ button:hover {
 }
 
 .plant-search {
-    width: 100%;
-    max-width: 500px;
-    margin-bottom: 30px;
+    display: inline-block;
+    width:250px;
+    height: auto;
 }
-
+.search-title{
+    font-family: "Libertinus Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 800px;
+}
 .plant-search input[type="text"] {
     width: 100%;
     padding: 12px 16px;
@@ -136,12 +140,14 @@ button:hover {
 }
 
 .canvas-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 0;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 50%;
+    border: 0px;
+    border-radius: 16px;
+    background-color: rgba(255,255,255,0.1);
+    padding: 20px 20px;
+    backdrop-filter: blur(30px);
 }
 
 .canvas {

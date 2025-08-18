@@ -23,6 +23,7 @@ scene.add(lights);
 const loader = new GLTFLoader();
 loader.load('./assets/models/plant_model.glb', function(gltf){
     const plant = gltf.scene;
+    plant.scale.set(0.5, 0.5, 0.5);
     plant.position.set(0, 0, 0);
     scene.add(plant);
     },
