@@ -197,7 +197,7 @@ main{
 
 .plants{
     border-radius: 12px;
-    height: 60px;
+    height: 40%;
     width: auto;
     object-fit: cover;
     margin-bottom: 15px;
