@@ -102,7 +102,9 @@ button:hover {
     cursor: pointer;
     color: #997300;
 }
-
+main{
+    margin-top: 20px;
+}
 .starter {
     display: flex;
     flex-direction: row;
