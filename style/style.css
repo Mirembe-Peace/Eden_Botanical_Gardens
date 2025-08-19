@@ -232,6 +232,9 @@ main{
 }
 
 footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
     background-color: #6E8649;
     color: white;
     font-family: "Montserrat", sans-serif;
