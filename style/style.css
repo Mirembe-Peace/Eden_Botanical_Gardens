@@ -231,6 +231,15 @@ main{
     margin-top: 15px;
 }
 
+footer{
+    background-color: #6E8649;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
     .mobile-menu-toggle {
