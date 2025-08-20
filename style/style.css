@@ -47,7 +47,8 @@ nav {
 
 .logo {
     height: 40px;
-    width: auto;
+    width: 40px;
+    border-radius: 50%;
 }
 
 .logo-name {
@@ -236,7 +237,7 @@ footer{
     justify-content: space-between;
     padding: 20px 5%;
     background-color: #6E8649;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     font-weight: 600;
