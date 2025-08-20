@@ -244,6 +244,38 @@ footer{
     margin-top: 20px;
 }
 
+.contact-us-title{
+   text-shadow: 2px 2px 5px white
+}
+
+hr{
+    border: 1px solid #203903;
+}
+
+.contact-info{
+    padding: 10px 5px;
+}
+
+.contact-brackets{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.vl{
+    border-left: 6px solid white;
+    height: 50px;
+}
+
+.icons{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
     .mobile-menu-toggle {
