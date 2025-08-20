@@ -252,9 +252,12 @@ hr{
     border: 1px solid #203903;
 }
 
+.contact-panel{
+    padding: 10px 5px;
+}
+
 .contact-info{
     padding: 10px 5px;
-    width: 90%;
 }
 
 .brackets{
