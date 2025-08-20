@@ -215,7 +215,7 @@ main{
     padding: 8px 16px;
     border: none;
     border-radius: 16px;
-    background-image: linear-gradient(to right, #2D531A, white);
+    background-color: white;
     color: black;
     cursor: pointer;
     transition: all 0.3s ease;
