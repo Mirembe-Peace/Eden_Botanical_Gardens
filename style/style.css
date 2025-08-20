@@ -88,7 +88,7 @@ button {
     padding: 8px 16px;
     border: none;
     border-radius: 16px;
-    background-color: #997300;
+    background-color: #F0B937;
     color: black;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -98,7 +98,7 @@ button {
 }
 
 button:hover {
-    background-color: #a08639;
+    background-color: #463c1e;
 }
 
 .mobile-menu-toggle {
@@ -243,7 +243,9 @@ footer{
     font-weight: 600;
     margin-top: 20px;
 }
-
+.contact-panel{
+    width: 40%;
+}
 .contact-us-title{
    text-shadow: 2px 2px 5px white
 }
@@ -260,6 +262,7 @@ hr{
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    width: 75%;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -274,6 +277,26 @@ hr{
     height: 30px;
     width: 30px;
     border-radius: 50%;
+}
+
+.footer-navigation-brackets{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nav-icons{
+    background-color: yellow;
+    padding: 2px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.footer-links{
+    text-decoration: none;
 }
 
 /* Responsive styles */
