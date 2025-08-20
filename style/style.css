@@ -244,16 +244,17 @@ footer{
     margin-top: 20px;
 }
 
+.contact-panel{
+    padding: 10px 5px;
+    width: 70%;
+}
+
 .contact-us-title{
    text-shadow: 2px 2px 5px white
 }
 
 hr{
     border: 1px solid #203903;
-}
-
-.contact-panel{
-    padding: 10px 5px;
 }
 
 .contact-info{
