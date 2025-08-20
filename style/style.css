@@ -243,9 +243,7 @@ footer{
     font-weight: 600;
     margin-top: 20px;
 }
-.contact-panel{
-    width: 40%;
-}
+
 .contact-us-title{
    text-shadow: 2px 2px 5px white
 }
@@ -258,11 +256,10 @@ hr{
     padding: 10px 5px;
 }
 
-.contact-brackets{
+.brackets{
     display: flex;
     justify-content: space-between;
     padding: 5px;
-    width: 75%;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -278,21 +275,8 @@ hr{
     width: 30px;
     border-radius: 50%;
 }
-
-.footer-navigation-brackets{
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.nav-icons{
-    background-color: yellow;
-    padding: 2px;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
+.footer-navigation{
+    padding: 10px 5px;
 }
 
 .footer-links{
