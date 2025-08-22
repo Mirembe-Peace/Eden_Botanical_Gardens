@@ -285,17 +285,15 @@ hr{
     margin-right: 100px;
 }
 
-.brackets.footer{
-    display: block;
-    align-items: center;
-    gap: 20px;
-    padding: 20px 5%;
-    font-size: large;
-    font-weight: 800px;
+.footer-links{
+    text-decoration: none;
+    color: white;
 }
 
-.footer-links{
-    text-decoration: solid;
+
+.footer-brackets{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* Responsive styles */
