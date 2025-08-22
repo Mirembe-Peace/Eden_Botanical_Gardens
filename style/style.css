@@ -285,8 +285,15 @@ hr{
     margin-right: 100px;
 }
 
+.brackets.footer{
+    display: block;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 5%;
+}
+
 .footer-links{
-    text-decoration: none;
+    text-decoration: solid;
 }
 
 /* Responsive styles */
