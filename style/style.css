@@ -290,6 +290,8 @@ hr{
     align-items: center;
     gap: 20px;
     padding: 20px 5%;
+    font-size: large;
+    font-weight: 800px;
 }
 
 .footer-links{
