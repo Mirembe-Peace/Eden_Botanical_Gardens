@@ -265,16 +265,11 @@ hr{
 
 .brackets{
     display: flex;
-    justify-content: space-between;
-    text-align: center;
+    align-items: center;
+    gap: 10px;
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
-}
-
-.vl{
-    border-left: 4px solid rgb(0, 0, 0);
-    height: 50px;
 }
 
 .icons{
