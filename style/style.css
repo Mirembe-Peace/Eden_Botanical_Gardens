@@ -282,6 +282,7 @@ hr{
     height: 30px;
     width: 30px;
     border-radius: 50%;
+    align-items: center;
 }
 .footer-navigation{
     display: block;
@@ -293,6 +294,7 @@ hr{
 }
 
 .footer-links{
+    align-items: center;
     text-decoration: none;
     text-align: center;
     color: rgb(0, 0, 0);
