@@ -304,6 +304,13 @@ hr{
     margin-bottom: 30px;
 }
 
+.footer-logo-holder {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
     .mobile-menu-toggle {
