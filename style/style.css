@@ -236,7 +236,7 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 20px 5%;
-    background-image: url("../assets/images/wallpaper_3.jpeg");
+    background-image: url("../assets/images/wallpaper_1.jpeg");
     background-color: #5D7E12;
     height: 300px;
     width: 100%;
@@ -310,7 +310,13 @@ hr{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.footer-logo-name {
     color: black;
+    font-family: "Libertinus Sans", sans-serif;
+    font-weight: 700;
+    margin: 0;
 }
 
 /* Responsive styles */
