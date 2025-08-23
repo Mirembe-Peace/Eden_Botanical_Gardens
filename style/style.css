@@ -89,7 +89,6 @@ button {
     border: none;
     border-radius: 16px;
     background-color: #5DD62C;
-    box-shadow: 0 0 5px 5px rgba(67, 216, 87, 0.68);
     color: black;
     cursor: pointer;
     transition: all 0.3s ease;
