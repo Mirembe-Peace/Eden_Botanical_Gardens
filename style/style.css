@@ -237,8 +237,11 @@ footer{
     justify-content: space-between;
     padding: 20px 5%;
     background-image: url("../assets/images/wallpaper_3.jpeg");
+    background-color: #5D7E12;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     color: rgb(0, 0, 0);
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
