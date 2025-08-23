@@ -238,7 +238,7 @@ footer{
     padding: 20px 5%;
     background-image: url("../assets/images/wallpaper_3.jpeg");
     background-color: #5D7E12;
-    height: 500px;
+    height: 300px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -272,7 +272,7 @@ hr{
 }
 
 .vl{
-    border-left: 4px solid white;
+    border-left: 4px solid rgb(0, 0, 0);
     height: 50px;
 }
 
@@ -293,7 +293,7 @@ hr{
 
 .footer-links{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
