@@ -176,10 +176,13 @@ main{
     border-radius: 32px;
     padding: 15px 5%;
     width: 60%;
+    border: 2px;
+    border-radius: 20%;
+    background-color: rgba(0, 0, 0, 0.254);
     font-family: "Libertinus Sans", sans-serif;
     font-weight: 700;
     font-size: 1rem;
-    margin: 100px auto 40px;
+    margin: 20px auto;
 }
 
 .category-titles{
