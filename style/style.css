@@ -173,7 +173,7 @@ main{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
     width: 60%;
     border: 2px;
     border-radius: 40px;
@@ -184,8 +184,12 @@ main{
     margin: 20px auto;
 }
 
-.plant-category-titles{
+.categories{
     color: white;
+}
+
+.plant-category-titles{
+    background-color: white;
 }
 
 .category-titles{
