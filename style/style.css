@@ -236,7 +236,7 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 20px 5%;
-    background-image: url("assets/images/wallpaper_3.jpeg");
+    background-image: url("/EDEN_BOTANICAL_GARDENS/assets/images/wallpaper_3.jpeg");
     color: rgb(0, 0, 0);
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
