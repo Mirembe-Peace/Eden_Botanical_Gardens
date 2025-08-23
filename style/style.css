@@ -266,6 +266,7 @@ hr{
 .brackets{
     display: flex;
     justify-content: space-between;
+    text-align: center;
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -293,6 +294,7 @@ hr{
 
 .footer-links{
     text-decoration: none;
+    text-align: center;
     color: rgb(0, 0, 0);
 }
 
