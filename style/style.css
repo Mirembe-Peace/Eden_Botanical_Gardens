@@ -236,7 +236,7 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 20px 5%;
-    background-image: url("style/wallpaper_3.jpeg");
+    background-image: url("/style/wallpaper_3.jpeg");
     color: rgb(0, 0, 0);
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
