@@ -99,7 +99,7 @@ button {
 }
 
 button:hover {
-    background-color: #463c1e;
+    background-color: #a3db8d;
 }
 
 .mobile-menu-toggle {
@@ -180,6 +180,15 @@ main{
     font-family: "Libertinus Sans", sans-serif;
     font-weight: 700;
     font-size: 1rem;
+    margin: 100px auto 40px;
+}
+
+.category-titles{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    gap: 20px;
 }
 
 .plant-display{
