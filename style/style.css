@@ -285,7 +285,7 @@ hr{
     height: 204px;
     padding: 10px 5px;
     margin-top: 50px;
-    margin-right: 80px;
+    margin-right: 60px;
 }
 
 .footer-links{
@@ -296,6 +296,7 @@ hr{
     border-radius: 16px;
     color: rgb(255, 255, 255);
     background-color: #203903;
+    transition: all 0.3s ease;
 }
 
 .footer-links:hover{
